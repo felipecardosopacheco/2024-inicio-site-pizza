@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=New+Amsterdam&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +11,19 @@
     --vermelho: #941b0cff;
     --laranja: #bc3908ff;
     --amarelo: #f6aa1cff;
+    --fonte-titulo:"New Amsterdam", sans-serif;
+    --fonte-texto:"Bungee Tint", sans-serif;
 }
+
+body{
+    background-color: var(--amarelo);
+    font-family: var(--fonte-texto);
+    font-size: 25px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
+}
+
+
   
