@@ -21,8 +21,16 @@ body{
     font-size: 25px;
 }
 
-.titulo-principal{
-    font-family: var(--fonte-titulo);
+.cabecalho{
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.cabecalho-img{
+    width: 15%;
 }
 
 
