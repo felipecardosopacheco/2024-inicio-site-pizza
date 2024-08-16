@@ -47,5 +47,14 @@ body{
     text-shadow: 2px 2px (var(--preto))
 }
 
+.principal-capa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
 
   
