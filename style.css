@@ -51,10 +51,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 24px;
-    background-image: url(fundo.jpg);
+    gap: 14px;
+    background-image: url(img/fundo.jpg);
     background-repeat: no-repeat;
     background-size: 100vw;
 }
 
-  
+  .principal-capa__conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .principal-capa__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    color: var(--preto);
+    margin-bottom: 12px;
+  }
