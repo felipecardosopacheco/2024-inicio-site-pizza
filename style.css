@@ -58,10 +58,13 @@ body{
     background-size: 100vw;
 }
 
-  .principal-capa__conteudo{
+  .principal-capa__imagem{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 330px;
+    border-radius: 100px;
+    border-bottom: 100px;
   }
 
   .principal-capa__titulo{
