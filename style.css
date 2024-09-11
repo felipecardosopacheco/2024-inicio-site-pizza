@@ -182,3 +182,28 @@ body{
     font-size: 24px;
     color: var(--vermelho );
 }
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+.lista__link a{
+    color: var(--vermelho);
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 26px;
+    }
+    .rodape__texto{
+        margin: 1em 0;
+        color: var(--preto);
+        font-size: 18px;
+    }
+    .rodape__logo{
+        width: 10%;
+        border-radius: 100%;
+        border-bottom: 100%;
+    }
+    .rodape{
+        text-align: center;
+        margin: 5em 3em;
+    }
