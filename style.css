@@ -62,7 +62,7 @@ body {
 
 .principal-capa__imagem {
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     gap: 12px;
     width: 330px;
     border-radius: 100%;
@@ -101,9 +101,8 @@ body {
 }
 
 .botao__secundario {
-    background-color: var(--branco);
-    border: 2px solid var(--preto);
-    color: var(--preto)
+    background-color: transparent;
+    color: var(--amarelo);
 }
 
 .botao__secundario:hover {
@@ -148,24 +147,23 @@ body {
     margin-top: 1em;
 
 }
-
-.propaganda__2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.propaganda__img2 {
+.propaganda__img {
     width: 60px;
-    border-radius: 30px;
+    border-radius: 100%;
     margin-left: 12em;
     width: 500px;
-
 }
+.propaganda__img:hover{
+width: 60%;
+transition: 1s;
+}
+
 
 .propaganda__botao {
     font-size: 600;
     width: 50%;
-}
+}Pizzas Doces
+
 
 .dispositivos {
     text-align: center;
@@ -206,10 +204,11 @@ body {
     margin: 1em 0;
     color: var(--preto);
     font-size: 18px;
-}
+}Pizzas Doces
+
 
 .rodape__logo {
-    width: 10%;
+    width: 30%;
     border-radius: 100%;
     border-bottom: 100%;
 }
